@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -53,4 +52,26 @@ th {
 td {
     font-size: 1.3rem;
     text-align: center;
+}
+
+@media(width<710px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    table,
+    input {
+        width: 85%;
+    }
+
+    input {
+        border-radius: 8px;
+        padding: 0.8%;
+        font-size: 1rem;
+    }
+
+    th,
+    td {
+        font-size: 0.9rem;
+    }
 }
