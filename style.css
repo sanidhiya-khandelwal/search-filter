@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: purple;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+input {
+    width: 50%;
+    border-radius: 9px;
+    padding: 0.5%;
+    margin: 2% 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+table {
+    text-align: center;
+    width: 50%;
+}
+
+th,
+td {
+    padding: 2%;
+}
+
+th {
+    background-color: rgba(173, 170, 170, 0.418);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+td {
+    font-size: 1.3rem;
+    text-align: center;
+}
